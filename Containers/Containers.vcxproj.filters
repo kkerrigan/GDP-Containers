@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Custom Map">
+      <UniqueIdentifier>{27785532-a7ad-46a9-a4f5-8ab10642c8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Marking Code">
+      <UniqueIdentifier>{097b1de8-5f76-464d-8c34-ac30824bc234}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iPersonMotron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sPerson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cCustomVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cStandardVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STLComparers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cStandardList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cStandardMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cCustomList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BST.h">
+      <Filter>Header Files\Custom Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cCustomMap.h">
+      <Filter>Header Files\Custom Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cDIYMap.h">
+      <Filter>Header Files\Custom Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkingCode.h">
+      <Filter>Marking Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cCustomVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cStandardVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cStandardList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cStandardMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cCustomList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cCustomMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkingCode.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_FindPeopleByHealth.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_FindPeopleByLocationAndRadius.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_FindPeopleByNameManyPeople.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_FindPeopleByNameSinglePerson.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_FindPeopleLocationRadiusHealth.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_FindPersonByID.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_FindPersonByName.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_SortPeople.cpp">
+      <Filter>Marking Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cDIYMap.inl">
+      <Filter>Header Files\Custom Map</Filter>
+    </None>
+  </ItemGroup>
+</Project>
